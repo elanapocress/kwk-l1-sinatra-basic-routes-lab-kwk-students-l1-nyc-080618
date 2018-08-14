@@ -16,4 +16,13 @@ class App < Sinatra::Base
   get '/song' do
     'My favorite song is anything by Harry Styles'
   end 
+  
+  get '/food' do
+    'My favorite food is pasta'
+  end 
+  
+  get '/color' do
+    'My favorite color is pink'
+  end 
+  
 end
